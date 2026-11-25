@@ -1,7 +1,6 @@
 // CAPA 3 · ESCRIBIR — tu primera tool que modifica datos.
 //
-// Hasta ahora tus tools solo consultaban. Esta guarda un pedido nuevo, y eso cambia las reglas:
-// una tool de lectura que falla da una respuesta mala; una de escritura que falla deja datos malos.
+// Hasta ahora tus tools solo consultaban. Esta guarda un pedido nuevo.
 //
 // Regla de oro: el modelo solo manda QUÉ quiere (platillo y cantidad).
 // El precio, el total, la fecha y el id los decide tu código. Nunca se los pidas al modelo.

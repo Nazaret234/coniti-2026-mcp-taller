@@ -51,4 +51,4 @@ Completa `tools/agendar_cita.ts`. Es el equivalente a `registrar_pedido` de la c
 
 - "¿A qué hora conviene abrir otro consultorio?"
 - "Agéndame una limpieza dental y dime cuántos lugares quedan."
-- "¿Qué servicios requieren ayuno y a qué hora se piden más?"
+- "¿Hay algún tipo de servicio que se concentre en un horario? ¿Por qué crees que pasa?"

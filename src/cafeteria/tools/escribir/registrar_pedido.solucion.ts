@@ -32,7 +32,6 @@ export default definirTool({
       );
     }
 
-    // Para pensar en la Capa 4: ¿qué pasa si el modelo llama esta tool dos veces con lo mismo?
     const pedido = guardarPedido(platillo, cantidad);
     return {
       mensaje: `Pedido #${pedido.id} registrado: ${cantidad} × ${platillo.nombre} por $${pedido.total}.`,

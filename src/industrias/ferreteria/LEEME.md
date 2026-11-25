@@ -52,4 +52,4 @@ Completa `tools/registrar_venta.ts`. Es el equivalente a `registrar_pedido` de l
 
 - "¿Qué debería resurtir esta semana y por qué?"
 - "Véndeme 3 cintas de aislar y dime cuántas quedan."
-- "¿Qué cambia en la tienda los sábados?"
+- "¿Hay algún día de la semana que se comporte distinto a los demás? ¿En qué?"

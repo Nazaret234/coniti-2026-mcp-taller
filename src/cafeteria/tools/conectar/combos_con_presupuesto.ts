@@ -1,9 +1,8 @@
-// CAPA 4 · CONECTAR — ya está resuelta; solo actívala en registro.ts cuando te toque.
+// RETO — esta tool ya está hecha; actívala en registro.ts para compararla.
 //
-// Experimento: pregúntale a Claude "tengo $90, ¿qué combo de comida y bebida me alcanza?"
-//   - primero SIN esta tool (el modelo tiene que hacer las cuentas con el menú),
-//   - después CON esta tool.
-// Lección: los cálculos exactos van en la tool; al modelo le toca entender la pregunta y explicar.
+// Pregúntale a Claude "tengo $90, ¿qué combo de comida y bebida me alcanza?"
+//   1. Primero SIN esta tool. Abre los bloques de las tools que llamó: ¿cuántas fueron y cuántos datos leyó?
+//   2. Después CON esta tool. ¿Qué cambió en el camino, aunque la respuesta sea la misma?
 
 import * as z from 'zod';
 import { definirTool } from '../../../lib/tool.ts';

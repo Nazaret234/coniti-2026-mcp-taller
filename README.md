@@ -131,12 +131,14 @@ Meta: que un modelo use tus tools.
 2. Cierra Claude Desktop por completo (en Windows: clic derecho en el ícono junto al reloj y **Salir**; en Mac: `Cmd + Q`) y ábrelo de nuevo.
 3. En un chat nuevo, pregunta: *¿Qué hay de desayuno en la cafetería y qué me alcanza con $60?*
 
-Experimentos:
+Cuando Claude pida permiso para usar una tool, elige permitir solo una vez: así verás cada llamada.
 
-- **Descripciones.** Pregunta *¿Qué se le antoja más a la gente?* y observa si Claude usa `mas_vendidos`. Mejora su descripción, reinicia Claude Desktop y pregunta de nuevo.
-- **Escritura.** Pide *Apártame dos tortas de milanesa*. Observa qué tools llama, en qué orden y cuándo te pide permiso.
-- **Duplicados.** Pide lo mismo otra vez. ¿Cuántos pedidos quedaron? ¿Cómo lo evitarías?
-- **Lógica en la tool.** Pregunta *Tengo $90, ¿qué combo me alcanza?* Luego activa `combos_con_presupuesto` en el registro y repite.
+Experimentos. En cada uno, anota qué esperabas y qué pasó:
+
+- **Una pregunta sobre ventas.** Pregunta *¿Qué se le antoja más a la gente en la cafetería?* Fíjate en cómo describe los datos: ¿de qué periodo dice que son? ¿De dónde sacó eso? Abre `mas_vendidos.ts`, lee su descripción como si fueras el modelo y complétala con lo que le faltó saber. Reinicia Claude Desktop y pregunta de nuevo.
+- **Un pedido.** Pide *Apártame dos tortas de milanesa*. Observa qué tools llama, en qué orden y cuándo te pide permiso.
+- **El mismo pedido.** Repite exactamente la misma petición y después corre `npm run probar buscar_platillo texto=milanesa`. ¿Era lo que querías? ¿A quién le toca resolverlo: al modelo o a la tool?
+- **Una pregunta sin tool.** Pregunta *¿A qué hora se junta más gente en la cafetería?* ¿Qué respondió y con qué datos? Luego activa `hora_pico` en el registro, reinicia y repite. ¿Qué cambió?
 
 Si cambias de industria o de código, cierra y abre Claude Desktop otra vez.
 
@@ -146,10 +148,10 @@ El archivo `.vscode/mcp.json` ya viene configurado. Ábrelo, inicia el servidor 
 
 ## Retos
 
-Para quien termine antes. No hay plantilla: parte de `mas_vendidos.ts`.
+Para quien termine antes.
 
-- **`hora_pico`**: ¿en qué horas se concentran los pedidos? Que acepte un día opcional.
-- **`agotarse_pronto`**: compara las porciones de hoy con lo que se vende en un día promedio. ¿Qué platillo no va a alcanzar?
+- **`agotarse_pronto`**: compara las porciones de hoy con lo que se vende en un día promedio. ¿Qué platillo no va a alcanzar? No hay plantilla: parte de `mas_vendidos.ts`.
+- **`combos_con_presupuesto`**: ya está hecha. Pregunta a Claude *Tengo $90, ¿qué combo de comida y bebida me alcanza?* sin ella y después activándola en el registro. Compara cuántas tools llamó y cuántos datos leyó en cada caso. ¿Qué pasaría con un menú de 5,000 platillos?
 
 ## Problemas comunes
 

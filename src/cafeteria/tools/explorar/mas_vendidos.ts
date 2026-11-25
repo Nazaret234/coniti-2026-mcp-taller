@@ -4,7 +4,6 @@ import { pedidosConPlatillo } from '../../datos.ts';
 
 export default definirTool({
   nombre: 'mas_vendidos',
-  // Capa 4: esta descripción es pobre a propósito. Ahí la vas a mejorar y verás la diferencia.
   descripcion: 'Regresa los más vendidos.',
   entrada: z.object({
     limite: z.number().int().min(1).max(25).default(5).describe('Cuántos platillos regresar.'),

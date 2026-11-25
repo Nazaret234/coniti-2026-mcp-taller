@@ -6,6 +6,7 @@ import menu_del_dia from './tools/explorar/menu_del_dia.ts';
 import mas_vendidos from './tools/explorar/mas_vendidos.ts';
 import ingreso_por_categoria from './tools/construir/ingreso_por_categoria.ts';
 import registrar_pedido from './tools/escribir/registrar_pedido.ts';
+import hora_pico from './tools/conectar/hora_pico.ts';
 import combos_con_presupuesto from './tools/conectar/combos_con_presupuesto.ts';
 import type { ToolCualquiera } from '../lib/tool.ts';
 
@@ -22,5 +23,8 @@ export const tools: ToolCualquiera[] = [
   // registrar_pedido,
 
   // Capa 4 · Conectar
+  // hora_pico,
+
+  // Reto
   // combos_con_presupuesto,
 ];

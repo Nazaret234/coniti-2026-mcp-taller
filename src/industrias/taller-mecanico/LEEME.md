@@ -51,4 +51,4 @@ Completa `tools/abrir_orden.ts`. Es el equivalente a `registrar_pedido` de la ca
 
 - "¿Qué día necesito más mecánicos y de qué especialidad?"
 - "Ábreme una orden para cambio de aceite y dime cuántos lugares quedan hoy."
-- "¿Qué pasa los lunes con los servicios eléctricos?"
+- "¿Hay algún día en que cambie el tipo de trabajo que llega al taller?"
