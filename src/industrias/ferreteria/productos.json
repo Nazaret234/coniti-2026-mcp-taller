@@ -1,0 +1,17 @@
+[
+  {"id":1,"nombre":"Martillo de uña 16 oz","categoria":"herramientas","precio":185,"stock":14,"etiquetas":["hogar"]},
+  {"id":2,"nombre":"Desarmador de cruz","categoria":"herramientas","precio":65,"stock":30,"etiquetas":["hogar"]},
+  {"id":3,"nombre":"Taladro inalámbrico 12 V","categoria":"herramientas","precio":1290,"stock":5,"etiquetas":["profesional"]},
+  {"id":4,"nombre":"Pinzas de electricista","categoria":"herramientas","precio":210,"stock":12,"etiquetas":["profesional"]},
+  {"id":5,"nombre":"Cinta de aislar negra","categoria":"electricidad","precio":22,"stock":80,"etiquetas":["hogar","económico"]},
+  {"id":6,"nombre":"Foco LED 9 W","categoria":"electricidad","precio":38,"stock":9,"etiquetas":["hogar","ahorro"]},
+  {"id":7,"nombre":"Cable calibre 12 (metro)","categoria":"electricidad","precio":18,"stock":200,"etiquetas":["profesional"]},
+  {"id":8,"nombre":"Apagador sencillo","categoria":"electricidad","precio":45,"stock":40,"etiquetas":["hogar"]},
+  {"id":9,"nombre":"Tubo PVC de 1/2 pulgada (tramo)","categoria":"plomería","precio":58,"stock":35,"etiquetas":["profesional"]},
+  {"id":10,"nombre":"Llave mezcladora para lavabo","categoria":"plomería","precio":420,"stock":8,"etiquetas":["hogar"]},
+  {"id":11,"nombre":"Cinta teflón","categoria":"plomería","precio":12,"stock":120,"etiquetas":["económico"]},
+  {"id":12,"nombre":"Cemento gris 50 kg","categoria":"construcción","precio":245,"stock":60,"etiquetas":["profesional"]},
+  {"id":13,"nombre":"Varilla de 3/8 (pieza)","categoria":"construcción","precio":189,"stock":90,"etiquetas":["profesional"]},
+  {"id":14,"nombre":"Pintura vinílica blanca 4 L","categoria":"pintura","precio":398,"stock":15,"etiquetas":["hogar"]},
+  {"id":15,"nombre":"Brocha de 3 pulgadas","categoria":"pintura","precio":48,"stock":25,"etiquetas":["hogar","económico"]}
+]

@@ -1,0 +1,9 @@
+node_modules/
+# Lo que escriben las tools durante el taller (se borra con: npm run reiniciar)
+*.jsonl
+# Industria activa de este equipo (se cambia con: npm run industria <nombre>)
+.industria
+# Archivos locales que no forman parte del taller
+CLAUDE.local.md
+instructor/
+.DS_Store

@@ -1,0 +1,14 @@
+[
+  {"id":1,"nombre":"Consulta general","categoria":"consulta","precio":350,"cupos":16,"etiquetas":["sin cita"]},
+  {"id":2,"nombre":"Consulta pediátrica","categoria":"consulta","precio":450,"cupos":8,"etiquetas":["infantil"]},
+  {"id":3,"nombre":"Consulta de nutrición","categoria":"consulta","precio":400,"cupos":6,"etiquetas":[]},
+  {"id":4,"nombre":"Biometría hemática","categoria":"laboratorio","precio":180,"cupos":20,"etiquetas":["requiere ayuno"]},
+  {"id":5,"nombre":"Química sanguínea","categoria":"laboratorio","precio":320,"cupos":20,"etiquetas":["requiere ayuno"]},
+  {"id":6,"nombre":"Examen general de orina","categoria":"laboratorio","precio":120,"cupos":20,"etiquetas":[]},
+  {"id":7,"nombre":"Limpieza dental","categoria":"dental","precio":500,"cupos":5,"etiquetas":[]},
+  {"id":8,"nombre":"Extracción dental","categoria":"dental","precio":900,"cupos":3,"etiquetas":[]},
+  {"id":9,"nombre":"Radiografía de tórax","categoria":"imagen","precio":480,"cupos":6,"etiquetas":[]},
+  {"id":10,"nombre":"Ultrasonido abdominal","categoria":"imagen","precio":850,"cupos":4,"etiquetas":["requiere ayuno"]},
+  {"id":11,"nombre":"Vacuna contra influenza","categoria":"prevención","precio":250,"cupos":30,"etiquetas":["sin cita"]},
+  {"id":12,"nombre":"Toma de presión y glucosa","categoria":"prevención","precio":60,"cupos":40,"etiquetas":["sin cita","económico"]}
+]

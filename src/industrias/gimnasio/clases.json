@@ -1,0 +1,14 @@
+[
+  {"id":1,"nombre":"Spinning","categoria":"cardio","precio":80,"cupos":20,"etiquetas":["intenso"]},
+  {"id":2,"nombre":"HIIT","categoria":"cardio","precio":90,"cupos":15,"etiquetas":["intenso"]},
+  {"id":3,"nombre":"Caminadora guiada","categoria":"cardio","precio":50,"cupos":12,"etiquetas":["principiante"]},
+  {"id":4,"nombre":"Pesas para principiantes","categoria":"fuerza","precio":70,"cupos":10,"etiquetas":["principiante"]},
+  {"id":5,"nombre":"CrossFit","categoria":"fuerza","precio":120,"cupos":12,"etiquetas":["intenso"]},
+  {"id":6,"nombre":"Entrenamiento funcional","categoria":"fuerza","precio":90,"cupos":15,"etiquetas":[]},
+  {"id":7,"nombre":"Yoga","categoria":"cuerpo y mente","precio":85,"cupos":18,"etiquetas":["principiante","relajación"]},
+  {"id":8,"nombre":"Pilates","categoria":"cuerpo y mente","precio":95,"cupos":12,"etiquetas":["relajación"]},
+  {"id":9,"nombre":"Box","categoria":"combate","precio":110,"cupos":10,"etiquetas":["intenso"]},
+  {"id":10,"nombre":"Kickboxing","categoria":"combate","precio":110,"cupos":10,"etiquetas":["intenso"]},
+  {"id":11,"nombre":"Zumba","categoria":"baile","precio":60,"cupos":25,"etiquetas":["principiante"]},
+  {"id":12,"nombre":"Salsa fitness","categoria":"baile","precio":60,"cupos":20,"etiquetas":["principiante"]}
+]

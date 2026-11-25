@@ -1,0 +1,14 @@
+[
+  {"id":1,"nombre":"Cambio de aceite y filtro","categoria":"mantenimiento","precio":650,"cupos":10,"etiquetas":["rápido"]},
+  {"id":2,"nombre":"Afinación mayor","categoria":"mantenimiento","precio":1800,"cupos":4,"etiquetas":["requiere cita"]},
+  {"id":3,"nombre":"Cambio de bujías","categoria":"mantenimiento","precio":480,"cupos":6,"etiquetas":["rápido"]},
+  {"id":4,"nombre":"Cambio de balatas delanteras","categoria":"frenos","precio":950,"cupos":5,"etiquetas":["garantía"]},
+  {"id":5,"nombre":"Rectificado de discos","categoria":"frenos","precio":700,"cupos":4,"etiquetas":[]},
+  {"id":6,"nombre":"Cambio de líquido de frenos","categoria":"frenos","precio":380,"cupos":6,"etiquetas":["rápido"]},
+  {"id":7,"nombre":"Cambio de amortiguadores","categoria":"suspensión","precio":2400,"cupos":2,"etiquetas":["requiere cita","garantía"]},
+  {"id":8,"nombre":"Alineación y balanceo","categoria":"suspensión","precio":450,"cupos":8,"etiquetas":["rápido"]},
+  {"id":9,"nombre":"Diagnóstico con escáner","categoria":"eléctrico","precio":350,"cupos":8,"etiquetas":["rápido"]},
+  {"id":10,"nombre":"Cambio de batería","categoria":"eléctrico","precio":1900,"cupos":5,"etiquetas":["garantía"]},
+  {"id":11,"nombre":"Rotación de llantas","categoria":"llantas","precio":200,"cupos":10,"etiquetas":["rápido"]},
+  {"id":12,"nombre":"Reparación de ponchadura","categoria":"llantas","precio":120,"cupos":12,"etiquetas":["rápido"]}
+]
