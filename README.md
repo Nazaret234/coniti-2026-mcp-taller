@@ -49,7 +49,10 @@ src/
 │       ├── construir/       Capa 2: tu primera tool
 │       ├── escribir/        Capa 3: una tool que modifica datos
 │       └── conectar/        Capa 4: experimento con el modelo
-└── industrias/              Ferretería, clínica, gimnasio y taller mecánico
+├── industrias/              Ferretería, clínica, gimnasio y taller mecánico
+└── comunes/                 Tools que funcionan con cualquier industria
+    ├── registro.ts          La lista de tools comunes activas
+    └── tools/clima.ts       Consulta el clima de una ciudad en internet
 ```
 
 Una tool tiene cuatro partes, y las cuatro están en un solo archivo:
@@ -152,6 +155,7 @@ Para quien termine antes.
 
 - **`agotarse_pronto`**: compara las porciones de hoy con lo que se vende en un día promedio. ¿Qué platillo no va a alcanzar? No hay plantilla: parte de `mas_vendidos.ts`.
 - **`combos_con_presupuesto`**: ya está hecha. Pregunta a Claude *Tengo $90, ¿qué combo de comida y bebida me alcanza?* sin ella y después activándola en el registro. Compara cuántas tools llamó y cuántos datos leyó en cada caso. ¿Qué pasaría con un menú de 5,000 platillos?
+- **`clima`**: ya está hecha y funciona con cualquier industria, pero no lee archivos: consulta una API pública en internet. Actívala en `src/comunes/registro.ts`, pruébala con `npm run probar clima ciudad=Monterrey`, reinicia Claude Desktop y pregúntale *¿Qué clima hay en Monterrey?* Luego desconecta el wifi y corre otra vez `npm run probar clima ciudad=Monterrey`: ¿qué leería el modelo?
 
 ## Problemas comunes
 
@@ -164,3 +168,4 @@ Para quien termine antes.
 | El servidor deja de responder | Busca un `console.log` en tu código y cámbialo por `console.error` |
 | Claude Desktop no muestra el servidor | Ciérralo por completo y ábrelo; si sigue igual, revisa en Configuración > Desarrollador qué error marca |
 | Quiero borrar lo que registré | `npm run reiniciar` |
+| `clima` dice que no hay conexión | Es la única tool que necesita internet: revisa tu conexión. Las demás funcionan sin red |

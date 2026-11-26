@@ -28,10 +28,11 @@ export function guardarIndustria(nombre: Industria): void {
   writeFileSync(ARCHIVO, nombre + '\n', 'utf8');
 }
 
-/** Carga la lista de tools del registro.ts de la industria. */
+/** Carga las tools del registro.ts de la industria y, después, las tools comunes. */
 export async function cargarTools(industria: Industria): Promise<ToolCualquiera[]> {
   const ruta =
     industria === 'cafeteria' ? '../cafeteria/registro.ts' : `../industrias/${industria}/registro.ts`;
   const modulo = (await import(ruta)) as { tools: ToolCualquiera[] };
-  return modulo.tools;
+  const comunes = (await import('../comunes/registro.ts')) as { tools: ToolCualquiera[] };
+  return [...modulo.tools, ...comunes.tools];
 }
